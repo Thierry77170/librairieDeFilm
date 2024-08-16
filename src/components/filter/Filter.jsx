@@ -1,4 +1,4 @@
-const Filter = ({ categories, onCategoryChange }) => {
+function Filter({ categories, onCategoryChange }) {
     return (
       <div className="filter">
         <select onChange={(e) => onCategoryChange(e.target.value)}>

@@ -47,6 +47,11 @@ function MoviesList() {
       useEffect(() => {
         setCurrentPage(1);
       }, [selectedCategory]);
+
+       // On réinitialise la page actuelle à 1 lorsque "itemsPerPage" change
+       useEffect(() => {
+        setCurrentPage(1);
+      }, [itemsPerPage]);
     
     // Expression pour sélestionner la catégorie de films
     let filteredMovies = selectedCategory === 'All'

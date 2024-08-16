@@ -1,7 +1,67 @@
 .moviesCards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 250px;
-    border: 1px solid black;
+    border: 1px solid #0037ED54;
     border-radius: 8px;
+    background-color: #0040FF08
+    ;
     padding: 20px;
-    
+}
+
+.like-dislike {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.textLikeDislike {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnLikeDislike {
+    width: 70px;
+    height: 70px;
+    border: none;
+    border-radius: 50%;
+    background-color: #0044FF2D;
+}
+
+
+.btnLikeDislike:hover {
+    cursor: pointer;
+    background-color: #0034DC72;
+}
+
+.btnLike.clicked {
+    background-color: #0031D2C1;
+}
+
+.btnDislike.clicked {
+    background-color: #0031D2C1;
+}
+
+.fa-2x {
+    color: #001046E0; /* Couleur par défaut */
+  }
+  
+.btnDelete {
+    width: 200px;
+    height: 50px;
+    margin: 35.92px 0px 19.92px 0px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0031D2C1;
+    font-size: 18px;
+    color: white;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    background-color: #0044FF2D;
+    color: #001046E0
 }

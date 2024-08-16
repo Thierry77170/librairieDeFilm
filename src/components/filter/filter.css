@@ -1,0 +1,13 @@
+.filter {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 21.44px;
+}
+
+.btnFilter {
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #0037ED54;
+    border-radius: 8px;
+    color: #001046E0;
+}

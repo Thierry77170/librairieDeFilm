@@ -3,3 +3,16 @@ header {
  justify-content: center;
  align-items: center;
 }
+
+html {
+    font-family: "Montserrat", sans-serif;
+    color: #001046E0;
+    background-color: #0040FF08;
+}
+h2 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 20px;
+}

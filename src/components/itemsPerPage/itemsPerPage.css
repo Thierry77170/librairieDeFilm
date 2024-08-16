@@ -1,0 +1,15 @@
+.itemsPerPage {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.btnItemsPerPage {
+    width: auto;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #0037ED54;
+    border-radius: 8px;
+    color: #001046E0;
+}
+

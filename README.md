@@ -27,6 +27,8 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 # librairieDeFilm
 
+![Librairie de films](images/librairieDeFilms.webp)
+
 J' ai listé les films dans des cartes avec: le titre en gras, la catégorie et une jauge type Youtube indiquant le ratio likes/dislikes. Les cartes sont côtes à côtes et responsive. Lorsque la fenêtre se réduit, les cartes sautent à la ligne suivante.
 
 J'ai ajouté un bouton dans les cartes permettant de supprimer celle-ci.

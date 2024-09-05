@@ -45,5 +45,5 @@ Choix du nombre d'élements affichés par page (4, 8 ou 12).
 ## Les technologies utilisées
 
 - JavaScript
-- React
+- React.js
 - Redux

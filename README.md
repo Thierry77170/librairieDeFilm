@@ -25,7 +25,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# librairie De Film
+## librairie De Film - Projet personnel d'entrainement
 
 ![Librairie de films](src/images/librairieDeFilms.png)
 
@@ -41,3 +41,9 @@ J'ai ajouter un système de pagination avec les fonctionnalités suivantes:
 
 Boutons précédent/suivant
 Choix du nombre d'élements affichés par page (4, 8 ou 12).
+
+## Les technologies utilisées
+
+- JavaScript
+- React
+- Redux

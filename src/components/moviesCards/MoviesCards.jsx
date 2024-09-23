@@ -48,6 +48,7 @@ function MoviesCards({ movie }) {
             </div>
             <div className="like-dislike">
             <button
+              title="Like"
               onClick={handleLike}
               className={`btnLikeDislike btnLike ${isLiked ? 'clicked' : ''}`}
             >
@@ -57,6 +58,7 @@ function MoviesCards({ movie }) {
               />
             </button>
             <button
+              title="Dislike"
               onClick={handleDislike}
               className={`btnLikeDislike btnDislike ${isDisliked ? 'clicked' : ''}`}
             >

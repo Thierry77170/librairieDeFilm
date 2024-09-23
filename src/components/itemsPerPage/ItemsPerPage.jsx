@@ -7,8 +7,14 @@ function ItemsPerPage({ onItemsPerPageChange }) {
 
     return (
         <div className='itemsPerPage'>
-            <p>Nombre d'éléments par page :</p>
-            <select onChange={handleChange} className='btnItemsPerPage'>
+            <label htmlFor="itemsPerPage">
+                Nombre d'éléments par page :
+            </label>
+            <select 
+                id="itemsPerPage"
+                onChange={handleChange} 
+                className='btnItemsPerPage'
+            >
                 <option vlue="4">4</option>
                 <option value="8">8</option>
                 <option value="12">12</option>

@@ -55,13 +55,13 @@
     margin: 35.92px 0px 19.92px 0px;
     border: none;
     border-radius: 8px;
-    background-color: #0031D2C1;
+    background-color: #CE2C31;
     font-size: 18px;
     color: white;
 }
 
 .btnDelete:hover {
     cursor: pointer;
-    background-color: #0044FF2D;
+    background-color: #FDBDBE;
     color: #001046E0
 }
